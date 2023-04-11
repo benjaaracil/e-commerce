@@ -4,6 +4,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import TranslateIcon from '@mui/icons-material/Translate';
 import {Link} from "react-router-dom"
 import "./navbar.scss"
 
@@ -13,7 +14,8 @@ const Navbar = () => {
     <div className='wrapper'>
       <div className='left'>
         <div className='item'>
-          <img src='/img/favicon.ico' alt=''/>
+          {/* <img src='/img/favicon.ico' alt=''/> */}
+          <TranslateIcon/>
           <KeyboardArrowDownIcon/>
         </div>
         <div className="item">
